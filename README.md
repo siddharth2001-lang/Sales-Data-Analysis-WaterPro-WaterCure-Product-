@@ -1,25 +1,24 @@
-# Data Analysis Project
+# Data Analysis Project: Sales Insights
 
 ## Overview
-This project contains a series of Jupyter notebooks focused on analyzing [describe what kind of data]. The analysis includes data exploration, preprocessing, visualization, and final conclusions.
+This project conducts a comprehensive analysis of daily sales data using Python. It involves data cleaning, exploratory data analysis (EDA), and visualization to uncover sales trends and insights.
 
-### Notebooks
-- **data_analysis_part1.ipynb**: Initial data exploration and preprocessing.
-- **data_analysis_part2.ipynb**: Data cleaning and intermediate analysis.
-- **data_analysis_part3.ipynb**: Further analysis and pattern identification.
+### Project Structure
+- **data_analysis_part1.ipynb**: Initial exploration and data cleaning.
+- **data_analysis_part2.ipynb**: Intermediate analysis.
+- **data_analysis_part3.ipynb**: Advanced insights and pattern detection.
 - **final_data_analysis.ipynb**: Final visualization and conclusions.
 
-### Requirements
-To run the notebooks, the following libraries are required:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- [add any other libraries you used]
-
-You can install these dependencies using the following command:
-```bash
-pip install -r requirements.txt
-
 ### Dataset
-The analysis in this project is based on the `daily_sales.csv` dataset, which contains daily sales data for the company. The dataset is included in the repository for reference.
+The dataset `daily_sales.csv` contains information about daily sales of WaterCure units along with daily temperatures from January 2024 to August 2024. It includes the following columns:
+1. **Date**: The date on which the sales and temperature were recorded.
+2. **Daily Units Sold**: The number of WaterCure units sold on each day.
+3. **Daily Unit Price**: The price per unit on the corresponding day.
+4. **Daily Temperature (C)**: The daily temperature in degrees Celsius.
+
+### Requirements
+To set up the environment:
+```bash
+git clone https://github.com/siddharth2001-lang/test.git
+cd test
+pip install -r requirements.txt
